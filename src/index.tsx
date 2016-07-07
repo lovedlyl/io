@@ -5,3 +5,5 @@ React.createClass({
         return <div></div>
     }
 })
+
+const test = 1;
