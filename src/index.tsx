@@ -7,3 +7,5 @@ React.createClass({
 })
 
 const test = 1;
+
+React.createClass
