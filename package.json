@@ -1,92 +1,92 @@
 {
-  "name": "io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest --verbose --no-cache",
-    "lint": "eslint src",
-    "dev-server": "webpack-dev-server",
-    "hot-dev-server": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 2992 --inline",
-    "build": "webpack --config webpack-production.config.js --progress --profile --colors",
-    "start-dev": "node lib/server-development",
-    "start": "node lib/server-production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
-  },
-  "jest": {
-    "scriptPreprocessor": "<rootDir>/jest-preprocessor.js",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json"
-    ],
-    "testRegex": "__tests__/.*.tsx$",
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react",
-      "<rootDir>/node_modules/react-dom",
-      "<rootDir>/node_modules/react-addons-test-utils",
-      "<rootDir>/node_modules/fbjs"
-    ]
-  },
-  "devDependencies": {
-    "babel-core": "^6.10.4",
-    "babel-eslint": "^6.1.0",
-    "babel-jest": "^13.0.0",
-    "babel-loader": "^6.2.4",
-    "babel-plugin-transform-object-rest-spread": "^6.8.0",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.11.1",
-    "chance": "^1.0.3",
-    "eslint": "^2.13.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-config-standard": "^5.3.1",
-    "eslint-plugin-html": "^1.5.1",
-    "eslint-plugin-import": "^1.10.0",
-    "eslint-plugin-jsx-a11y": "^1.5.3",
-    "eslint-plugin-promise": "^1.3.2",
-    "eslint-plugin-react": "^5.2.2",
-    "eslint-plugin-standard": "^1.3.2",
-    "history": "^3.0.0",
-    "jest-cli": "^13.0.0",
-    "jquery": "^3.0.0",
-    "react": "^15.2.0",
-    "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.2.0",
-    "react-hot-loader": "^1.3.0",
-    "react-redux": "^4.4.5",
-    "react-router": "^2.5.2",
-    "redux": "^3.5.2",
-    "redux-devtools": "^3.3.1",
-    "remarkable": "^1.6.2",
-    "source-map-loader": "^0.1.5",
-    "superagent": "^2.0.0",
-    "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "chance": "^1.0.3",
-    "eslint-plugin-promise": "^1.3.2",
-    "history": "^3.0.0",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "react-redux": "^4.4.5",
-    "react-router": "^2.5.1",
-    "redux": "^3.5.2",
-    "redux-devtools": "^3.3.1",
-    "superagent": "^2.0.0"
-  }
+	"name": "io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --verbose --no-cache",
+		"lint": "eslint src",
+		"dev-server": "webpack-dev-server",
+		"hot-dev-server": "webpack-dev-server --config webpack-hot-dev-server.config.js --hot --progress --colors --port 2992 --inline",
+		"build": "webpack --config webpack-production.config.js --progress --profile --colors",
+		"start-dev": "node lib/server-development",
+		"start": "node lib/server-production"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"babel": {
+		"presets": [
+			"es2015",
+			"react"
+		],
+		"plugins": [
+			"transform-object-rest-spread"
+		]
+	},
+	"jest": {
+		"scriptPreprocessor": "<rootDir>/jest-preprocessor.js",
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"json"
+		],
+		"testRegex": "__tests__/.*.tsx$",
+		"unmockedModulePathPatterns": [
+			"<rootDir>/node_modules/react",
+			"<rootDir>/node_modules/react-dom",
+			"<rootDir>/node_modules/react-addons-test-utils",
+			"<rootDir>/node_modules/fbjs"
+		]
+	},
+	"devDependencies": {
+		"babel-core": "^6.10.4",
+		"babel-eslint": "^6.1.0",
+		"babel-jest": "^13.0.0",
+		"babel-loader": "^6.2.4",
+		"babel-plugin-transform-object-rest-spread": "^6.8.0",
+		"babel-preset-es2015": "^6.9.0",
+		"babel-preset-react": "^6.11.1",
+		"chance": "^1.0.3",
+		"eslint": "^2.13.1",
+		"eslint-config-airbnb": "^9.0.1",
+		"eslint-config-standard": "^5.3.1",
+		"eslint-plugin-html": "^1.5.1",
+		"eslint-plugin-import": "^1.10.0",
+		"eslint-plugin-jsx-a11y": "^1.5.3",
+		"eslint-plugin-promise": "^1.3.2",
+		"eslint-plugin-react": "^5.2.2",
+		"eslint-plugin-standard": "^1.3.2",
+		"history": "^3.0.0",
+		"jest-cli": "^13.0.0",
+		"jquery": "^3.0.0",
+		"react": "^15.2.0",
+		"react-addons-test-utils": "^15.1.0",
+		"react-dom": "^15.2.0",
+		"react-hot-loader": "^1.3.0",
+		"react-redux": "^4.4.5",
+		"react-router": "^2.5.2",
+		"redux": "^3.5.2",
+		"redux-devtools": "^3.3.1",
+		"remarkable": "^1.6.2",
+		"source-map-loader": "^0.1.5",
+		"superagent": "^2.0.0",
+		"ts-loader": "^0.8.2",
+		"typescript": "^1.8.10",
+		"webpack": "^1.13.1",
+		"webpack-dev-server": "^1.14.1"
+	},
+	"dependencies": {
+		"chance": "^1.0.3",
+		"eslint-plugin-promise": "^1.3.2",
+		"history": "^3.0.0",
+		"react": "^15.1.0",
+		"react-dom": "^15.1.0",
+		"react-redux": "^4.4.5",
+		"react-router": "^2.5.1",
+		"redux": "^3.5.2",
+		"redux-devtools": "^3.3.1",
+		"superagent": "^2.0.0"
+	}
 }

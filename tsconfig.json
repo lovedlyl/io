@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "jsx": "react",
-    "declaration": false,
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "es5"
-  },
-  "compileOnSave": false,
-  "buildOnSave": false,
-  "atom": {
-    "formatOnSave": true
-  },
-  "exclude": [
-    "node_modules"
-  ]
+	"compilerOptions": {
+		"jsx": "react",
+		"declaration": false,
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "commonjs",
+		"target": "es5"
+	},
+	"compileOnSave": false,
+	"buildOnSave": false,
+	"atom": {
+		"formatOnSave": true
+	},
+	"exclude": [
+		"node_modules"
+	]
 }
