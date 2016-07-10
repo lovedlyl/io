@@ -6,6 +6,7 @@ React.createClass({
     }
 })
 
+console.log(`测试`)
 const test = 1;
 React.createClass({
     render() {
