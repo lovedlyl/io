@@ -3,8 +3,8 @@
 function test(x) {
 	return x + x;
 }
-
 test(2);
+
 test(1);
 const app = document.getElementById('app');
 app.addEventListener('click', function (e) {
