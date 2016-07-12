@@ -9,4 +9,4 @@
 git config --global push.default simple
 ```
 
-[stackoverflow上也有相同的解释](http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0) ，_不过还是没咋理解_
+[stackoverflow上也有相同的解释](http://stackoverflow.com/questions/13148066/warning-push-default-is-unset-its-implicit-value-is-changing-in-git-2-0) ，`simple`首选。_不过还是没咋理解_
