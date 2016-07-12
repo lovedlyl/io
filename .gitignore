@@ -2,3 +2,5 @@
 **/dist
 **/typings
 **/.git
+# 放置电子书的文件夹
+**/books
