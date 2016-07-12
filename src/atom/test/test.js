@@ -6,15 +6,12 @@ function test(x) {
 
 test(2);
 test(1);
-
 const app = document.getElementById('app');
-
-app.addEventListener('click', function(e) {
+app.addEventListener('click', function (e) {
 	e.preventDefault();
 
 	// body...
 });
-
 
 function test1() {
 	return 1;
