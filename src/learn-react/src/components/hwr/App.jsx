@@ -5,8 +5,7 @@ class Hwr extends React.Component{
 	render(){
 		return(
       <div>
-        hacking with reac
-        <Detail></Detail>
+        <Detail/>
       </div>
     );
 	}

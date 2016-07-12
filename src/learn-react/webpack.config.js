@@ -13,7 +13,7 @@ module.exports = {
 			loader: 'react-hot!babel'
 		}],
 		preLoaders: [{
-			test: /\.js$/,
+			test: /\.jsx$/,
 			loader: 'source-map-loader'
 		}]
 	},
