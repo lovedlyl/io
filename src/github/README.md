@@ -1,6 +1,5 @@
 # github日常使用记录
 
-<重命名.md>
+## [重命名](重命名.md)
 
-<gitignore.md>
-</gitignore.md>
+## [.gitignore文件](gitignore.md)
