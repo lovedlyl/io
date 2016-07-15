@@ -16,6 +16,7 @@ app.addEventListener('click', function (e) {
 function test1() {
 	return 1;
 }
+
 test1();
 
 let x = document.getElementById('2');
