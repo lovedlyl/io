@@ -4,7 +4,6 @@ function test(x) {
 	return x + x;
 }
 test(2);
-
 test(1);
 const app = document.getElementById('app');
 app.addEventListener('click', function (e) {
@@ -13,15 +12,15 @@ app.addEventListener('click', function (e) {
 	// body...
 });
 
-function test1() {
-	return 1;
-}
-
-test1();
-
 let x = document.getElementById('2');
 
 x.alert();
+
+function name(x) {
+	return x;
+	// body...
+}
+name(2);
 
 if (x instanceof Object) {
 	x = 1;
