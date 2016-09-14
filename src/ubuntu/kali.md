@@ -4,6 +4,12 @@
 
 登录时的用户名为"root"，密码是装机时设置的密码。（以为和ubuntu一样，用了装机时设置的用户名，不能登录，还以为记错了，结果重装了系统。:-1:）
 
+## 創建普通用戶
+
+Kali默認使用超級用戶。裝機後第一件事就是使用useradd/adduser命令创建普通用户，再用普通用户登陆安装各种桌面软件。
+
+超级用户模式下不能使用chromium和lantern。
+
 ## 添加快捷键
 
 设置>快捷键>添加。
@@ -55,9 +61,13 @@ chown -R root Browser/*
 
 ### 方法二 lantern
 
+下载地址：<https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-beta-64-bit.deb>。
+
 ```bash
-dpkg -i lantern....deb # 能安装成功，但还是不能翻
+dpkg -i lantern....deb # 超级用户下能安装成功，但还是不能翻
 ```
+
+安装时会提示缺少一个依赖包，看报错信息安装后即可。
 
 ### 方法三 ss
 
