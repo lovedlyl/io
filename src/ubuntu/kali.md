@@ -1,5 +1,13 @@
 # kali版本
 
+## update 很慢
+
+将/etc/apt/sources.list修改为：
+```
+deb http://repo.kali.org/kali kali-rolling main contrib non-free
+deb-src http://repo.kali.org/kali kali-rolling main contrib non-free
+```
+
 ## 开机登录
 
 登录时的用户名为"root"，密码是装机时设置的密码。（以为和ubuntu一样，用了装机时设置的用户名，不能登录，还以为记错了，结果重装了系统。:-1:）
