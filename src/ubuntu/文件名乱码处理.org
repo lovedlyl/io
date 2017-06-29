@@ -1,0 +1,18 @@
+# Author: Claudio <3261958605@qq.com>
+# Created: 2017-06-30 01:14:12
+# Commentary:
+#+TITLE: 处理文件名乱码
+
+参考自： [[http://linux-wiki.cn/wiki/%25E4%25B8%25AD%25E6%2596%2587%25E6%2596%2587%25E4%25BB%25B6%25E5%2590%258D%25E4%25B9%25B1%25E7%25A0%2581%25E9%2597%25AE%25E9%25A2%2598][linux-wiki.cn]]
+
+测试：
+
+#+BEGIN_EXAMPLE sh
+  convmv -f gbk -t utf8 -r MY_DIR
+#+END_EXAMPLE
+
+确认后执行：
+
+#+BEGIN_EXAMPLE sh
+  convmv -f gbk -t utf8 -r MY_DIR --notest
+#+END_EXAMPLE
