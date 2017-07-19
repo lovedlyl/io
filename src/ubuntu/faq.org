@@ -1,0 +1,18 @@
+# Author: Claudio <3261958605@qq.com>
+# Created: 2017-07-19 09:33:12
+# Commentary:
+#+TITLE: Linux常见问题和解决办法
+
+* 关掉开机时选择启动选项，等待5秒
+
+  修改/etc/default/grub文件：
+
+  #+BEGIN_SRC sh :session
+    GRUB-TIMEOUT=0
+    .....
+
+    GRUB-TERMINAL=console
+    ....
+  #+END_SRC
+
+  再执行update-grub命令，重启即可生效。
